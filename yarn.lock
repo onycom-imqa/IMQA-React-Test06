@@ -5274,8 +5274,8 @@ import-local@^2.0.0:
 
 imqa-react-sdk@^1.0.0:
   version "1.0.0"
-  resolved "http://nexus.imqa.io:8081/repository/imqa-react-sdk/imqa-react-sdk/-/imqa-react-sdk-1.0.0.tgz#b6ea43c76d9433dfcc9cd0b94d57e9906d0c6045"
-  integrity sha512-LEDngWrcAAukRP7IUHvYPPKN3jieXEwaqXiIWv+CMoJY7J05L5RGnaiaiETpozhEnyDfTN8tmodjPg8k9zdzZg==
+  resolved "http://nexus.imqa.io:8081/repository/imqa-react-sdk/imqa-react-sdk/-/imqa-react-sdk-1.0.0.tgz#de127458a109b36d23875c13bf9b0d1d05776f1a"
+  integrity sha512-pWP3ufEDj6CuD4PSHBHc12GY9f9mRg8/YtjwI7b7NY2Xxgqoq3KQuVSMip6g+SWZ9zXrJ8NtgNYVGXb+aBfUHg==
 
 imurmurhash@^0.1.4:
   version "0.1.4"
