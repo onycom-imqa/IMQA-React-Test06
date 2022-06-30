@@ -3,16 +3,24 @@ import RoomsFilter from './RoomsFilter';
 import RoomsList from './RoomsList';
 import { withRoomConsumer } from '../context';
 import Loading from './Loading';
+import { useIMQA } from "imqa-react-sdk";
 
 const RoomsContainer = ({context}) => {
+    const IMQARef = useIMQA();
     const { loading, sortedRooms, rooms} = context;
     if(loading) {
-        return <Loading />
+        return (
+            <div ref={IMQARef}>
+                <Loading />
+            </div>
+        )
     }
     return (
-        <div>
-            <RoomsFilter rooms={rooms}/>
-            <RoomsList rooms={sortedRooms}/>
+        <div ref={IMQARef}>
+            <div>
+                <RoomsFilter rooms={rooms}/>
+                <RoomsList rooms={sortedRooms}/>
+            </div>
         </div>
     )
 }
